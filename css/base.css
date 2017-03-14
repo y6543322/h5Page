@@ -1,0 +1,14 @@
+*{
+    font-family: 'Microsoft JhengHei';
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+a{
+    transition:all 0.5s;
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    color: #ff0000;
+}

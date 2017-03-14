@@ -1,0 +1,437 @@
+/*头部*/
+.header {
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    height: 60px;
+    z-index: 2;
+    background: -webkit-linear-gradient(0deg,transparent 0%,#000000 100%);
+    background: linear-gradient(0deg,transparent 0%,#000000 100%);
+    color: #ffffff;
+}
+.header__logo {
+    position: absolute;
+    display: block;
+    left: 10px;
+    background: url("../img/logo.png") left center no-repeat;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+    font-weight: bolder;
+    top: 50%;
+    margin-top: -20px;
+    padding-left: 50px;
+}
+
+.header__nav {
+    position: absolute;
+    height: 40px;
+    right: 30px;
+    top: 50%;
+    margin-top: -20px;
+    font-size: 8px;
+}
+
+.header__nav-item {
+    float: left;
+    display: block;
+    height: 40px;;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header__nav-item-buy {
+    background-color: #f01400;
+    border-radius: 5px;
+}
+.header__nav-item-buy:hover{
+    background-color: #881400;
+}
+.header__nav-tip {
+    position: absolute;
+    height: 2px;
+    width: 56px;
+    background-color: #ff0000;
+    left: 20px;
+    bottom: -2px;
+    transition: all .5s ease-in-out;
+}
+/*第一屏*/
+.screen-1 {
+    color: #ffffff;
+    position: relative;
+    height: 640px;
+    background: url("../img/sc1.jpg") left top no-repeat;
+    background-size: cover;
+}
+.screen-1__heading {
+    padding-top: 230px;;
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: center;
+}
+.screen-1__subheading {
+    padding-top: 28px;
+    font-size: 16px;
+    text-align: center;
+}
+/*第二屏*/
+.screen-2 {
+    color: #07111b;
+    position: relative;
+    height: 640px;
+    background-color: #f3f5f7;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.screen-2__heading {
+    padding-top: 80px;;
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.screen-2__subheading {
+    padding-top: 50px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.screen-2__tip{
+    position: absolute;
+    top:160px;
+    left: 50%;
+    margin-left: -25px;
+    width: 50px;
+    height: 3px;
+    background-color: #ff0000;
+}
+.screen-2__pic {
+    position: relative;
+    width: 750px;
+    height: 380px;
+    margin: 35px auto 0;
+
+}
+.screen-2__pic-1 {
+    position: absolute;
+    width: 750px;
+    height: 361px;
+    background: url(../img/sc2.png) center no-repeat;
+    left: 50%;
+    margin-left: -375px;
+    bottom: 0;
+}
+.screen-2__pic-2 {
+    position: absolute;
+    width: 275px;
+    height: 380px;
+    background: url(../img/sc2-1.png) center no-repeat;
+    left: 50%;
+    margin-left: -137.5px;
+    z-index: 1;
+}
+.screen-2__pic-3 {
+    position: absolute;
+    width: 266px;
+    height: 205px;
+    background: url(../img/sc2-2.png) center no-repeat;
+    right: 140px;
+    top: 57px;
+}
+
+/*第三屏*/
+.screen-3 {
+    color: #ffffff;
+    height: 640px;
+    background-color: #2b333b;
+    overflow: hidden;
+}
+.screen-3__wrap {
+    margin: 0 auto;
+    height: 640px;
+    width: 1200px;
+    position: relative;
+}
+.screen-3__pic{
+    overflow: hidden;
+    position: absolute;
+    width: 308px;
+    height: 340px;
+    top: 50%;
+    margin-top: -170px;
+    background: url("../img/sc3.png");
+    transform: scale(1.8);
+}
+.screen-3__topic {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 550px;
+    height: 640px;
+}
+.screen-3__heading {
+    position: absolute;
+    top: 220px;;
+    font-size: 42px;
+    font-weight: bolder;
+}
+.screen-3__tip{
+    position: absolute;
+    top:295px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #ff0000;
+}
+.screen-3__subheading {
+    position: absolute;
+    top: 315px;
+    line-height: 22px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.screen-3__feature {
+    position: absolute;
+    left: 0;
+    bottom: 44px;
+}
+
+.screen-3__feature__item {
+    float: left;
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+
+.screen-3__feature__item-1 {
+    border: 6px solid #1f5975;
+    color: #02b0ff;
+}
+
+.screen-3__feature__item-2 {
+    border: 6px solid #424d76;
+    color: #787dcc;
+}
+
+.screen-3__feature__item-3 {
+    border: 6px solid #6b4146;
+    color: #ff584c;
+}
+
+.screen-3__feature__item-4 {
+    border: 6px solid #29535f;
+    color: #249d85;
+}
+
+.screen-3__feature__item-5 {
+    border: 6px solid #3e4e40;
+    color: #83b056;
+}
+
+/*第四屏*/
+.screen-4 {
+    color: #07111b;
+    height: 640px;
+    background-color: #f3f5f7;
+}
+
+.screen-4__wrap {
+    margin: 0 auto;
+    height: 640px;
+    width: 1200px;
+    position: relative;
+}
+
+.screen-4__heading {
+    padding-top: 80px;;
+    font-size: 42px;
+    text-align: center;
+    line-height: 60px;
+    font-weight: bold;
+}
+.screen-4__tip{
+    position: absolute;
+    top:165px;
+    left: 50%;
+    margin-left: -25px;
+    width: 50px;
+    height: 3px;
+    background-color: #ff0000;
+}
+.screen-4__subheading {
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 44px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.screen-4__item{
+    padding: 94px 60px 0 60px;
+    float: left;
+    width: 166px;
+    height: 120px;
+    line-height: 68px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.screen-4__item-1{
+    background: url("../img/sc4-1.png") center top no-repeat;
+}
+
+.screen-4__item-2{
+    background: url("../img/sc4-2.png") center top no-repeat;
+}
+
+.screen-4__item-3{
+    background: url("../img/sc4-3.png") center top no-repeat;
+}
+
+.screen-4__item-4{
+    background: url("../img/sc4-4.png") center top no-repeat;
+}
+
+/*第五屏*/
+.screen-5 {
+    color: #ffffff;
+    height: 640px;
+    background: url("../img/sc5.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.screen-5__wrap {
+    margin: 0 auto;
+    height: 640px;
+    width: 1200px;
+    position: relative;
+}
+.screen-5__pic{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 95px;
+    left: 50%;
+    margin-left: -100px;
+    background: url("../img/sc5-1.png");
+}
+.screen-5__heading {
+    width: 100%;
+    position: absolute;
+    bottom: 233px;
+    font-size: 42px;
+    text-align: center;
+    line-height: 46px;
+    font-weight: bold;
+}
+.screen-5__tip{
+    position: absolute;
+    top:430px;
+    left: 50%;
+    margin-left: -25px;
+    width: 50px;
+    height: 3px;
+    background-color: #ffffff;
+}
+.screen-5__subheading {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 152px;
+    line-height: 38px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+}
+
+/*继续了解*/
+.screen-6 {
+    height: 200px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.screen-6__study {
+    color: #07111b;
+    width: 240px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -120px;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #707070;
+    border-radius: 5px;
+}
+.screen-6__study:hover{
+    color: #ff0000;
+}
+/*页脚*/
+.footer {
+    position: relative;
+    height: 106px;
+    background-color: #000000;
+    text-align: center;
+}
+
+.footer__nav {
+    position: absolute;
+    width: 640px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    top: 30px;
+    left: 50%;
+    margin-left: -320px;
+}
+.footer__nav-item {
+    float: left;
+    color: #c8cdd2;
+    padding: 0 12px;
+}
+.footer__copyright {
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    font-size: 14px;
+    color: #787d82;
+}
+/*大纲*/
+.outline{
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    width: 56px;
+    height: 240px;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px rgba(0,0,0,.3);
+    overflow: hidden;
+    transform: translate(100%,0);
+}
+.outline__item{
+    color: #2b333b;
+    margin-right:14px;
+    margin-left: 14px;
+    right: 14px ;
+    display: block;
+    width: 28px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #def1f2;
+}
